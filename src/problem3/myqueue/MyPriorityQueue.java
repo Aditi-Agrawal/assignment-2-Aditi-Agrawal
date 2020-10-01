@@ -7,13 +7,13 @@
 package problem3.myqueue;
 
 import problem3.myLinkedList.MyLinkedList;
-import problem3.student.Student;
+import problem3.students.Student;
 
 public class MyPriorityQueue {
     MyLinkedList linkedList = new MyLinkedList();
 
-    public void enqueue(Student student) {
-        linkedList.addLast(student);
+    public void enqueue(Student students) {
+        linkedList.addLast(students);
     }
 
     public void dequeue() {
